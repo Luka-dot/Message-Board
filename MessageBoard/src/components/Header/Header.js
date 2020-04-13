@@ -8,7 +8,7 @@ export const Header = () => {
         <section className="Logo">
           <h1>Message Board</h1>
         </section>
-        <Link to="/new-note">Post New Note</Link>
+        <Link to="/new-note">Create New Note</Link>
       </section>
     </div>
   )
