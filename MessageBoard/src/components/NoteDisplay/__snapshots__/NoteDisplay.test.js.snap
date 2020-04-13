@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoteDisplay should match the snapshot 1`] = `
+<div
+  className="NoteDisplay"
+>
+  <h3>
+    Another 2
+  </h3>
+  <ul>
+    <li
+      className=""
+      key="BqkLJDU45"
+    >
+      Item 2
+    </li>
+    <li
+      className="completed"
+      key="Not Complets"
+    >
+      Item 3
+    </li>
+  </ul>
+</div>
+`;

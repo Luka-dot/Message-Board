@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NoteForm NoteForm Component should match the snapshot 1`] = `
+<div
+  className="Note"
+>
+  <div
+    className="note-content"
+    style={
+      Object {
+        "backgroundColor": "#FFE680",
+      }
+    }
+  >
+    <input
+      autoComplete="off"
+      className="note-title"
+      name="title"
+      onChange={[Function]}
+      placeholder="Enter A Title..."
+      type="text"
+      value="Jake ToDo"
+    />
+    <div
+      className="errorLabel"
+    >
+      <i
+        className="fas fa-exclamation-triangle"
+      />
+      <p
+        className="name-error"
+      >
+        Please Enter A Title
+      </p>
+    </div>
+    <ul
+      className="ListItems"
+    >
+      <ListItem
+        handleItemChange={[Function]}
+        handleItemDelete={[Function]}
+        id="O6oYExG7Q"
+        index={0}
+        isComplete={false}
+        key="O6oYExG7Q"
+        text="Do basic styling"
+        toggleComplete={[Function]}
+      />
+    </ul>
+    <ul
+      className="ListItems Completed"
+    />
+    <NoteOptions
+      changeColor={[Function]}
+      deleteNote={[Function]}
+      displayError={false}
+      handleClose={[Function]}
+      handleType={[Function]}
+      title="Jake ToDo"
+      type="existing-note"
+    />
+  </div>
+</div>
+`;
+
+exports[`NoteForm NoteForm Component should update match the snapshot when there is more list items in the list state 1`] = `
+<div
+  className="Note"
+>
+  <div
+    className="note-content"
+    style={
+      Object {
+        "backgroundColor": "#FFE680",
+      }
+    }
+  >
+    <input
+      autoComplete="off"
+      className="note-title"
+      name="title"
+      onChange={[Function]}
+      placeholder="Enter A Title..."
+      type="text"
+      value="Jake ToDo"
+    />
+    <div
+      className="errorLabel"
+    >
+      <i
+        className="fas fa-exclamation-triangle"
+      />
+      <p
+        className="name-error"
+      >
+        Please Enter A Title
+      </p>
+    </div>
+    <ul
+      className="ListItems"
+    >
+      <ListItem
+        handleItemChange={[Function]}
+        handleItemDelete={[Function]}
+        id="O6oYExG7Q"
+        index={0}
+        isComplete={false}
+        key="O6oYExG7Q"
+        text="Do basic styling"
+        toggleComplete={[Function]}
+      />
+      <ListItem
+        handleItemChange={[Function]}
+        handleItemDelete={[Function]}
+        id="1234552f4"
+        index={1}
+        isComplete={false}
+        key="1234552f4"
+        text="Javascript is cool"
+        toggleComplete={[Function]}
+      />
+    </ul>
+    <p
+      className="Completed-Message"
+    >
+      1 Completed Item(s)
+    </p>
+    <ul
+      className="ListItems Completed"
+    >
+      <ListItem
+        handleItemChange={[Function]}
+        handleItemDelete={[Function]}
+        id="55ogax554"
+        index={0}
+        isComplete={true}
+        key="55ogax554"
+        text="Do More CsS"
+        toggleComplete={[Function]}
+      />
+    </ul>
+    <NoteOptions
+      changeColor={[Function]}
+      deleteNote={[Function]}
+      displayError={false}
+      handleClose={[Function]}
+      handleType={[Function]}
+      title="Jake ToDo"
+      type="existing-note"
+    />
+  </div>
+</div>
+`;

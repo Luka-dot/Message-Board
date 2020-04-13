@@ -1,0 +1,68 @@
+.note-content {
+  position: fixed;
+  top: 50%; left: 50%;
+  width: 450px; height: auto;
+  transform: translate(-50%,-50%);
+  box-shadow: 0px 2px 10px 3px #0000006b;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (max-width: 500px) {
+    width: 80%;
+  }
+
+  .note-title {
+    font-family: $font-OpenSans;
+    color: $textColor;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+    min-height: 43px;
+    padding: 7px 15px;
+    margin-top: 3px;
+    outline: none;
+    border: none;
+    background: inherit;
+  }
+
+  .errorLabel {
+    display: none;
+    align-items: center;
+    padding: 0px 15px;
+    font-size: .8em;
+
+    &.Active {
+      display: flex;
+    }
+
+    i {
+      color: #DD1972;
+      margin-right: .5em;
+    }
+    p {
+      margin: 0;
+      // font-size: .8em;
+      color: #DD1972;
+    }
+  }
+
+  .Completed-Message {
+    min-height: 29px;
+    padding: 5px 45px 5px 18px;
+    text-align: left;
+
+    p {
+      margin: 0;
+      font-size: .9em;
+      color: $textColor;
+      font-weight: 400;
+      line-height: 1.5rem;
+      letter-spacing: .00825em;
+      font-family: $font-Roboto;
+    }
+  }
+
+  .Note-Error {
+    h2 { margin: 0; }
+  }
+}

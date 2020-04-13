@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem should match the snapshot 1`] = `
+<li
+  className="ItemIncomplete"
+  key="0"
+>
+  <button
+    className="CheckBox"
+    onClick={[Function]}
+  >
+    <img
+      alt="Check Box"
+      src="unchecked.svg"
+    />
+  </button>
+  <input
+    autoComplete="off"
+    className="list-item-input"
+    disabled={null}
+    id="123232"
+    name="ListItem"
+    onChange={[Function]}
+    placeholder="List Item"
+    type="text"
+  />
+  <button
+    className="delete-button"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-times"
+    />
+  </button>
+</li>
+`;
+
+exports[`ListItem should match the snapshot when an item isCompleted 1`] = `
+<li
+  className="ItemComplete"
+>
+  <button
+    className="CheckBox"
+    onClick={[Function]}
+  >
+    <img
+      alt="Check Box"
+      src="checked.svg"
+    />
+  </button>
+  <input
+    autoComplete="off"
+    className="list-item-input"
+    disabled="disabled"
+    name="ListItem"
+    onChange={[Function]}
+    placeholder="List Item"
+    type="text"
+  />
+  <button
+    className="delete-button"
+    onClick={[Function]}
+  >
+    <i
+      className="fas fa-times"
+    />
+  </button>
+</li>
+`;

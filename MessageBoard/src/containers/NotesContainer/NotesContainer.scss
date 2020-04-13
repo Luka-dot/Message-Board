@@ -1,0 +1,54 @@
+.NotesContainer {
+
+  .note-click {
+    border-radius: 15px;
+    background: #ffe680;
+    text-decoration: none;
+    margin: 1em;
+    padding: 1em;
+    display: flex;
+    font-family: $font-Abel;
+    box-shadow: 4px 6px 6px 3px #00000059;
+    position: relative;
+
+    @media screen and (max-width: 787px) {
+      margin: .5em;
+    }
+
+    @media screen and (max-width: 500px) {
+      margin: auto;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      width: 80%;
+    }
+
+    &:before {
+      content:"";
+      background-image: url('./media/tack.png');
+      position: absolute;
+      width:100px;
+      height: 100px;
+      top: .2em;
+      right: 3.5em;
+      background-repeat: no-repeat;
+    }
+  }
+
+  .splash-message {
+    margin: 100px auto 0;
+    color: #ffffff;
+    font-size: 80px;
+    width: 500px;
+    text-shadow: 2px 4px 13px #0000006e;
+  }
+
+  .my-masonry-grid {
+    display: flex;
+    width: auto;
+  }
+
+  .my-masonry-grid_column {
+    background-clip: padding-box;
+  }
+
+}

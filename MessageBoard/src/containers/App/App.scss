@@ -1,0 +1,13 @@
+.App {
+  box-sizing: border-box;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+
+  .Content-Container {
+    width: 100%;
+    max-width: 1400px;
+    margin: auto;
+  }
+}
