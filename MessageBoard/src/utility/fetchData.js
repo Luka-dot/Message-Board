@@ -6,4 +6,5 @@ export const fetchData = async (url, body) => {
   } else {
     return data;
   }
+  
 }
