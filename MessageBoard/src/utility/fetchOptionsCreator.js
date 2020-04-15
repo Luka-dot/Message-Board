@@ -4,4 +4,5 @@ export const fetchOptionsCreator = (type, body) => ({
   headers:{
     'Content-Type': 'application/json'
   }
+  
 })
