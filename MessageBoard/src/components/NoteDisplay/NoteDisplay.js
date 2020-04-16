@@ -5,6 +5,7 @@ const NoteDisplay = (props) => {
   const listMax = 30;
   return (
     <div className="NoteDisplay">
+      
       <h3>
         {
           props.title.length > titleMax ?

@@ -9,6 +9,7 @@ export const fetchAllNotes = (url) => {
       if(!response.ok){
         throw Error(response.statusText)
       }
+      
       const result = await response.json();
       dispatch(fetchNotes(result));
     } catch (error) {
