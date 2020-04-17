@@ -38,6 +38,7 @@ export class App extends Component {
       </div>
     );
   }
+  
 }
 
 export const mapStateToProps = (state) => ({
