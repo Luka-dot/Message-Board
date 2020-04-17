@@ -5,6 +5,5 @@ export const fetchData = async (url, body) => {
     throw new Error(data)
   } else {
     return data;
-  }
-  
+  } 
 }
